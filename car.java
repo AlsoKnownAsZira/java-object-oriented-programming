@@ -23,7 +23,9 @@ class car{
         String buyer = sc.nextLine();
         System.out.println("HI "+buyer+" \n THE CAR YOU'RE GOING TO BUY IS: "+manufacturer+" "+series+"\nAVAILABLE COLOUR: "+colour+"\n TOP SPEED: "+speed+"KMH"+"\nCAR WEIGHT: "+weight+"KG");
     }
-    void carIndentDetail(String buyer){
-        System.out.println();
+    void carIndentDetail(){
+        System.out.print("ENTER YOUR NAME: ");
+        String buyer = sc.nextLine();
+        System.out.println("HI "+buyer+ " WE CURRENTLY SEARCHING ON THE MARKET FOR "+manufacturer+" "+series+" WE WILL CONTACT YOU AS SOON AS WE GOT OUR HANDS ON ONE OF THEM");
     }
 }
