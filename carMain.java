@@ -11,6 +11,6 @@ public class carMain {
        car01.speed = 300;
        car01.colour = "GRAPHITE WHITE";
        car01.weight = 400;
-       
+       car01.carDetail(buyer01);
         }
 }
