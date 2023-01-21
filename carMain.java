@@ -5,12 +5,7 @@ public class carMain {
         Scanner sc = new Scanner (System.in);
         System.out.print("ENTER YOUR NAME: ");
         String buyer01 = sc.nextLine();
-       car car01 = new car();
-       car01.manufacturer = "TOYOTA";
-       car01.series = "AE 86";
-       car01.speed = 300;
-       car01.colour = "GRAPHITE WHITE";
-       car01.weight = 400;
+       car car01 = new car("TOYOTA","AE 86",300,"GRAPHITE WHITE",400);
        car01.carDetail(buyer01);
         }
 }
