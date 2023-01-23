@@ -28,4 +28,5 @@ class car{
         String buyer = sc.nextLine();
         System.out.println("HI "+buyer+ " WE CURRENTLY SEARCHING ON THE MARKET FOR "+manufacturer+" "+series+" WE WILL CONTACT YOU AS SOON AS WE GOT OUR HANDS ON ONE OF THEM");
     }
+    
 }
