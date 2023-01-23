@@ -18,6 +18,9 @@ class car{
             this.manufacturer = manufacturer;
             this.series = series;
         }
+        car(){
+            
+        }
     void carDetail(){
         System.out.print("ENTER YOUR NAME: ");
         String buyer = sc.nextLine();
