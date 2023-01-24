@@ -21,6 +21,9 @@ class car{
         car(){
             
         }
+        void greet(){
+            System.out.println("HELLO CUSTOMER!"); // method overloading
+        }
     void carDetail(){
         System.out.print("ENTER YOUR NAME: ");
         String buyer = sc.nextLine();
