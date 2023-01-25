@@ -8,5 +8,5 @@ class carSold extends car  {
     void greet(){
         System.out.println("WELCOME BACK CUSTOMER!");
     }
-
+    
 }
